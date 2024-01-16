@@ -314,10 +314,10 @@ a{
 
 /* ----------contact----------- */
 .contact-left{
-    flex-basis:35%;
+    flex-basis:50%;
 }
 .contact-right{
-    flex-basis:60%;
+    flex-basis:50%;
 }
 .contact-left p{
     margin-top:30px;
@@ -350,22 +350,28 @@ a{
 }
 
 form input, form textarea{
-    width:100%;
+    width:80%;
     border:0;
     outline:none;
     background-color:#262626;
-    padding:15px;
-    margin:15px 0;
+    /* padding:15px; */
+    padding:1rem;
+    /* margin:15px 0; */
+    margin:0.5rem 0;
     color:#fff;
-    font-size:18px;
-    border-radius:6px;
+    /* font-size:18px; */
+    font-size:1rem;
+    /* border-radius:6px; */
+    border-radius:0.5rem;
 
 }
 
 form .btn2{
-    padding:14px 60px;
-    font-size:18px;
-    margin-top:20px;
+    /* padding:14px 60px; */
+    padding:0.5rem 4rem;
+    font-size:1.2rem;
+    margin-top:1rem;
+    /* display: none; */
     cursor:pointer;
 }
 
@@ -374,10 +380,10 @@ form .btn2{
 .copyright{
     width:100%;
     text-align:center;
-    padding:25px 0;
+    padding:1rem 0;
     background-color:#262626;
     font-weight:500;
-    margin-top:20px;
+    margin-top:1rem;
 }
 
 nav .fas{
@@ -477,6 +483,13 @@ nav .fas{
     background-color:#ff004f;
     color:black;
     font-weight: 700;
+    transition:0.5s;
+}
+/* .car-footer:hover{ */
+.work:hover .card-footer{
+    background-color:black;
+    color:#ff004f;
+    /* color:white; */
 }
 
 .card-img-top{
